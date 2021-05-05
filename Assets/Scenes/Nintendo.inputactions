@@ -1,0 +1,71 @@
+{
+    "name": "Nintendo",
+    "maps": [
+        {
+            "name": "Gamepad",
+            "id": "0bbe9466-e080-4805-b45d-884af90c0930",
+            "actions": [
+                {
+                    "name": "Right",
+                    "type": "Button",
+                    "id": "a273e816-3db8-445b-93f6-ce6ae4132c94",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Left",
+                    "type": "Button",
+                    "id": "86b927f2-a965-4d7b-b919-e7552adbad8a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Disparo",
+                    "type": "Button",
+                    "id": "33bcacb2-c83e-4f8b-9df0-194756d59fb4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e5a03ed7-8d7f-4526-84ad-f6faf35009f5",
+                    "path": "<SwitchProControllerHID>/leftStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "70f82e8c-5284-4314-99d1-0ce84a5bc411",
+                    "path": "<SwitchProControllerHID>/leftStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "36936b0d-edca-41b3-a33f-4a8e376aef4e",
+                    "path": "<SwitchProControllerHID>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Disparo",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
